@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" data-theme="light">
 
 <head>
   <meta charset="UTF-8">
@@ -19,6 +19,7 @@
 <link href="styles.css" rel="stylesheet"></head>
 
 <body>
+  <div>
   <header class="header header_hidden">
     <div class="container">
       <div class="row row_hMax row__alignCenter">
@@ -51,9 +52,10 @@
         </div>
         <div class="col">
           <div class="header__button">
-            <div class="button">
-              кнопка
-            </div>
+            <label class="toggle">
+                <input class="toggle__checkbox" type="checkbox" name="toggleTheme">
+                <span class="toggle__circle"></span>
+            </label>
           </div>
         </div>
       </div>
@@ -114,7 +116,7 @@
         </div>
       </div>
     </section>
-    <section class="aboutSection">
+    <section class="aboutMeSection">
       <div class="container">
         <div class="card">
           <h1 class="card__title">
@@ -122,10 +124,10 @@
           </h1>
           <div class="aboutMe">
             <p class="aboutMe__text">
-              Я заинтересовался разработкой программного обеспечения, когда учился в университете. За время обучения познакомился со многими языками программирования. Мне особенно понравились такие языки, как JavaScript и Swift. До этого я учился в обычной школе и занимался спортом. Очень нравится кататься на сноуборде.
+              Я заинтересовался разработкой программного обеспечения, когда учился в университете. За время обучения познакомился со многими языками программирования. Мне особенно понравились такие языки, как JavaScript и Swift.
             </p>
             <p class="aboutMe__text">
-              Я начал работать веб-разработчиком интерфейсов в 2017 году после окончания университета. Мне удалось поработать во многих компаниях и даже в самой крупной компании СНГ — Яндекс.
+              Я начал работать веб-разработчиком интерфейсов в 2017 году после окончания университета. Мне удалось побывать на стажировке в Яндекс и поработать во многих компаниях.
             </p>
           </div>
         </div>
@@ -429,18 +431,11 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="contacts">
-      <div class="contacts__title">
-        Contacts
-      </div>
-      <ul>
-        <li class="contacts__item">e-mail: job.artyomburkan@gmail.com</li>
-      </ul>
-    </div>
     <div class="copyright">
-      © 2019, Artyom Burkan
+      © 2020, Артём Буркан
     </div>
   </footer>
+  </div>
 <script type="text/javascript" src="main.bundle.js"></script></body>
 
 </html>
